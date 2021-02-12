@@ -1,0 +1,12 @@
+Na początku działania programu należy wygenerować klucz publiczny i prywatny. Polega to na wylosowaniu liczb p i q.
+Następnie obliczona zostaje wartość (n = p * q) i (phi = (p-1)(q-1)).
+Na podstawie liczb generowana jest wartość e, która jest liczbą względnie pierwszą z phi.
+Na koniec generacji obliczona zostaje liczba d w taki sposób, aby była spełniona zależność: iloczyn e i d przystaje do 1 modulo phi.
+Para e i n stanowi klucz publiczny, a para d i n klucz prywatny.
+
+Wiadomość dzielona jest na bloki m o wartości liczbowej nie większej niż n.
+Następnie wykorzystywany jest wzór:
+c = (m^e) mod n; gdzie c oznacza wiadomość zaszyfrowaną, a m wiadomość jawną.
+
+Do deszyfrowania wyszkorzystywany jest wzór:
+m = c^d mod n; gdzie c oznacza wiadomość zaszyfrowaną, a m wiadomość jawną.

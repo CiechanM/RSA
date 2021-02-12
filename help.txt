@@ -1,0 +1,7 @@
+Obsługiwane są formaty plików .txt.
+
+Wciskając INFO pojawią się informacje na temat działania algorytmu RSA. Poniżej opisano sposób osługi programu.
+
+W pierwszej kolejnosci nalezy wybrać plik do zaszyfrowania oraz klucz publiczny. Przycisk ENCRYPT spowoduje zaszyfrowanie wiadomości.
+
+Aby odszyfrować wiadomość, należy wczytać plik zaszyfrowaną wiadomością oraz klucz prywatny. Przycisk DECRYPT spowoduje odszyfrowanie pliku.
